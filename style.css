@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(70,70,70);
+}
+
+div{
+
+}
+
+.header{
+    background: black;
+    display: block;
+    height: 500px;
+    position: relative;
+}
+
+.img-head{
+    opacity: 0.5;
+    width: 100%;
+    height: 500px;
+}
+
+.signup-btn{
+    margin: 20px 0 0 70%;
+    position: absolute;
+    left: 0px;
+    top: 13px;
+    right: 0px;
+}
+
+.signup-btn a{
+    text-decoration: none;
+    padding:10px 20px;
+    background: red;
+    border-radius: 4px;
+    color: white;
+    font-size: 19px;
+}
+
+.brand{
+    top: 100px;
+    left: 10%;
+    width: 80%;
+    position: absolute;
+    color:white;
+}
+
+.brand h1{
+    display: block;
+    text-align: center;
+    font-size: 28px;
+}
+
+.brand p{
+    text-align: center;
+}
+.brand span{
+    font-size: 18px;
+    display: block;
+}
+
+.input{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.input input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 17px;
+}
+
+.input a{
+    text-decoration: none;
+    padding:10px 20px;
+    background: red;
+    border-radius: 4px;
+    color: white;
+    font-size: 22px;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+.section-1{
+    background: black;
+    color: white;
+    text-align: center;
+    padding:40px 20px;
+    margin-top: 10px;
+}
+
+.section-1 h1{
+    font-size: 27px;
+}
+
+.section-1 p{
+    font-weight: bold;
+}
+
+.section-1 img{
+    width: 100%;
+}
+
+.section-2{
+    background: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-bottom:50px ;
+}
+
+
+.section-2 h1{
+    font-size: 27px;
+    padding: 20px;
+
+}
+
+.section-2 .input{
+    margin-left:4.5%;
+}
+.question{
+    background: rgb(80,80,80);
+    padding:3px 30px;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    margin-top: 10px;
+    text-align: start;
+    font-family:  arial;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.section-3{
+    color: rgb(150,150,150);
+    background: black;
+    margin-top: 10px;
+}
+
+.foots{
+    display: flex;
+}
+
+.section-3 h2{
+    font-size: 16px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.section-3 ul{
+    list-style-type: none;
+}
+
+.foot{
+    line-height: 3;
+    width: 42%;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+@media (min-width:900px){
+    .input{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .input input[type=email]{
+        width: 50%;
+    }
+    .input a{
+        width: 30%;
+        margin: 0;
+        padding: 12px 20px;
+        border-radius: 0vw;
+    }
+
+    .section-1{
+        display: flex;
+    }
+
+    .section-1 div{
+        width: 45%;
+    }
+
+    .section-1 h1{
+        font-size: 37px;
+    }
+    
+    .section-1 p{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .signup-btn{
+        margin-left: 89%;
+    }
+
+    .question{
+        width: 70%;
+        margin:20px  auto;
+        font-size: 20px;
+    }
+    .section-2 .input{
+        margin-left: 15%;
+    }
+
+    .section-2 h1{
+        font-size: 37px;
+        padding: 30px;
+    
+    }
+
+    .section-3 h2{
+        font-size: 20px;
+    }
+    .foot{
+        font-size: 18px;
+    }
+
+    .foot li:hover{
+        border-bottom: 2px solid rgb(70,70,70);
+        display: inline;
+
+    }
+}
